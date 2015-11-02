@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    style="@style/card.native.header_compound_view"
+    android:id="@+id/barter_header_layout">
+
+    <!-- This is the Inner Content Header which you can populate runtime
+         with setupInnerViewElements(android.view.ViewGroup, android.view.View) method in CardHeader class. -->
+    <FrameLayout
+        android:id="@+id/card_header_inner_frame"
+        style="@style/card.native.header_inner_frame"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        >
+    <!-- This is the base Inner View inside a CardHeader.
+         You can customize it with your layout xml file and your CardHeader.
+         You can populate your elements with CardHeader#setupInnerViewElements(android.view.ViewGroup, android.view.View) method -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/barter_header_image"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/card_header_inner_simple_title"
+        android:layout_marginLeft="72dp"
+        style="@style/card.native.header_simple_title"/>
+
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

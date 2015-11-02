@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FindMyBook</string>
+    <string name="app_id">536427923176005</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signing_in">We are signing you in to google</string>
+</resources>
